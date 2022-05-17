@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryKeeper</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0">Rue Victor Hugo 2016, Carthage-Présidence (216)71774720 / 71775948 / 71775592</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-end border-start text-dark">Login</a>
+                <a href="#" class="px-3 border-end text-dark">Wishlist (0)</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">StoryKeeper</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Genres<i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Books<i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Coming soon</a>
+                  </li>
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="main-site">
+        <section id="product" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="./assets/products/a-tale-of-two-cities-330.png" alt="product" class="img-fluid">
+                        <div class="form-row pt-4 font-size-16 font-baloo">
+                            <div class="col py-1">
+                                <button type="submit" class="btn btn-danger form-control">Add to wishlist</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-5">
+                        <h3 class="font-baloo font-size-20">A Tale of Two Cities</h3>
+                        <small>by Charles Dickens</small>
+                        <div class="d-flex">
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                              </div>
+                              <a href="#" class="px-2 font-rale font-size-14">12 rating | 2 answered questions</a>
+                        </div>
+                        <hr class="m-0">
+                        <table class="my-3">
+                            <tr class="font-rale font-size-14">
+                                <td>Audiobook:</td>
+                                <td class="font-size-20 text-danger"><span>3.00 TND</span></td>
+                            </tr>
+                            <tr class="font-rale font-size-14">
+                                <td>Paperback:</td>
+                                <td class="font-size-20 text-danger"><span>24.00 TND</span></td>
+                            </tr>
+                            <tr class="font-rale font-size-14">
+                                <td>Hardcover:</td>
+                                <td class="font-size-20 text-danger"><span>38.00 TND</span></td>
+                            </tr>
+                        </table>
+                        <div id="policy">
+                            <div class="d-flex">
+                                <div class="return text-center mr-5">
+                                    <div class="font-size-20 my-2 color-second">
+                                        <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" class="font-rale font-size-12">10 Days <br> Replacement</a>
+                                </div>
+                                <div class="return text-center mr-5 px-3">
+                                    <div class="font-size-20 my-2 color-second">
+                                        <span class="fas fa-truck  border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" class="font-rale font-size-12">Free shipping<br>(Physical copies)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="order-details" class="font-rale d-flex flex-column text-dark">
+                            <small>Delivery generally takes anywhere between 3-5 </small>
+                            <small>business days or available for pick up at</small>
+                            <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Rue Victor Hugo 2016, Carthage-Présidence</small>
+                        </div>
+                        <div class="row px-2">
+                            <div class="col-6 py-2">
+                                <div class="qty d-flex">
+                                    <h6 class="font-baloo">Quantity</h6>
+                                    <div class="px-4 d-flex font-rale">
+                                        <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                        <input type="text" data-id="pro1" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                        <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="size my-3">
+                            <h6 class="font-baloo">Format / Edition:</h6>
+                            <div class="d-flex justify-content-between w-75">
+                                <div class="font-rubik border p-2">
+                                    <button class="btn p-0 font-size-14">Audiobook</button>
+                                </div>
+                                <div class="font-rubik border p-2">
+                                    <button class="btn p-0 font-size-14">Paperback</button>
+                                </div>
+                                <div class="font-rubik border p-2">
+                                    <button class="btn p-0 font-size-14">Hardcover</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="best-selling">
+          <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Best Selling</h4>
+            <hr>
+            <div class="owl-carousel owl-theme">
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href=""><img src="./assets/products/a-tale-of-two-cities-330.png" alt="product1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>A Tale Of Two Cities</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>38.00 TND</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href=""><img src="./assets/products/the-little-prince.png" alt="product1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>The Little Prince</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>96.00 TND</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href=""><img src="./assets/products/harry potter and the philosopher's stone.png"  alt="product1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Harry Potter and The Philosopher's Stone</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>39.00 TND</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href=""><img src="./assets/products/hung-lou-meng-or-the-dream-of-the-red-chamber-2.png" alt="product1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>Dream of the Red Chamber</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>42.00 TND</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="item py-2">
+                <div class="product font-rale">
+                  <a href=""><img src="./assets/products/lionwardrobe13.png" alt="product1" class="img-fluid"></a>
+                  <div class="text-center">
+                    <h6>The lion, The Witch & The Wardrobe</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="price py-2">
+                      <span>51.00 TND</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <H4 Class="font-rubik font-size-20">StoryKeeper</H4>
+            <p class="font-size-14 font-rale text-white-50">Read what you want, when you want…!</p>
+          </div>
+          <div class="col-lg-3 col-12">
+            <H4 Class="font-rubik font-size-20">Newsletter</H4>
+            <form class="form-row ">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="E-mail">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-3 col-12">
+            <h4 class="font-rubik font-size-20">Information</h4>
+            <div class="d-flex flex-column">
+              <a href="#" class="font-rae font-size-14 text-white-50 pb-1">About us</a>
+              <a href="#" class="font-rae font-size-14 text-white-50 pb-1">Delivery info</a>
+              <a href="#" class="font-rae font-size-14 text-white-50 pb-1">Privacy Policy</a>
+              <a href="#" class="font-rae font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="d-flex flex-column">
+            <H4 Class="font-rubik font-size-20">Account</H4>
+            <a href="#" class="font-rae font-size-14 text-white-50 pb-1">My Account</a>
+            <a href="#" class="font-rae font-size-14 text-white-50 pb-1">Purchase History</a>
+            <a href="#" class="font-rae font-size-14 text-white-50 pb-1">Wishlist</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+      <p>&copy; 2022 Abdelmonem Assili - <a class="color-second" href="http://www.ihec.rnu.tn/">IHEC Carthage</a></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

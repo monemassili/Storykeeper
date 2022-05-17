@@ -1,0 +1,13 @@
+<?php
+ob_start();
+    include('header.php');
+?>
+<?php
+    include('Template/_products.php');
+?>
+<?php
+    include('Template/_best-selling.php');
+?>
+<?php
+    include('footer.php');
+?>
